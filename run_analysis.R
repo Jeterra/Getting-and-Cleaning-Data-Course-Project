@@ -67,7 +67,6 @@ OnlyMeanStdActNames <- merge(OnlyMeanStd, activityLabels,by='activityId',all.x=T
 
 #Creating a second, independent tidy data set with the average of each variable 
 # for each activity and each subject
-#Making second tidy data set
 
 #4. Making 2nd data
 Tidy2 <- aggregate(. ~subjectId + activityId + activityType, OnlyMeanStdActNames, mean)
