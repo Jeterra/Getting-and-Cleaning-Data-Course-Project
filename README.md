@@ -10,7 +10,6 @@ This is the course project for the Getting and Cleaning Data Coursera course. Th
       (name the activities in the data set and labels the data set with descriptive variable names)
     Merges the two datasets
     Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
-
 The end result is shown in the file Tidy.txt.
 
 In addition, you will see three more files:
